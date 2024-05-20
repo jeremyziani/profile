@@ -1,0 +1,98 @@
+body{
+  background-color: #caf0f8;
+  font-family: "IBM Plex Mono", monospace;
+  color: #03045e;
+  text-align: center;
+  font-size: 15px
+}
+
+h1{
+  font-size: 30px;
+}
+
+.photo{
+  border-radius: 15px;
+  width: 200px;
+  box-shadow: 2px;
+}
+
+h2, h3{
+  font-size: 25px;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+  color: #ffb3c6
+}
+
+a:hover{
+  color: #c77dff
+}
+
+a{
+  text-decoration: none;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffb3c6;
+  font-size: 20px
+}
+
+.card{
+  background: white;
+  padding: 70px;
+  margin : 15px auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 400px;
+  border: 1px solid rgb(16, 99, 201)
+}
+
+.footer i {
+  font-size: 30px;
+}
+
+ul{
+  padding: 0
+}
+
+.card i {
+  font-size: 30px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+ .btn-pink {
+  background: #03045e;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 15px;
+ }
+
+ .btn-pink:hover {
+  color: #c77dff;
+  background: #ffe5ec
+ }
+
+ .list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+ }
+
+ .li-hover:hover{
+  color: #c77dff;
+
+ }
+
+ p {
+  margin-bottom: 50px;
+ }
+
+ @media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
